@@ -1,0 +1,8 @@
+print("Joe"+"Blogs")
+print("Barack"+"Biden")
+print("Ben" *5)
+print("9"+"Jo")
+name=input("What is you name?")
+age=input("What is you age?")
+adress=input("Where do you live?")
+print("Hi {}. You have now notified a scamming organisation that your name is {} and you are {} years old. You have also told them that you are currntly residing at {}.".format(name, name, age, adress))
