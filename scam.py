@@ -1,0 +1,6 @@
+first_name = input("What is your first name?")
+last_name = input("What is your last name?")
+age = input("How old are you?")
+occupation = input("What is your occupation?")
+address = input("Where do you live")
+print("Thank you for responding to our scam add {}. You have notified us that your name is {} {}, you are {} years old. You have also informed us that you currently live at {} and work as a {}. Carry on to the next page to voluntarily enter your bank account details.".format(first_name, first_name, last_name, age, address, occupation))
